@@ -1,5 +1,7 @@
 FROM nicc777/code-container
 
+LABEL CodeServerVersion 3.9.3
+
 # Startup script
 WORKDIR /opt/bin
 COPY code-service-java-starter.sh .
