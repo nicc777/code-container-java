@@ -93,12 +93,21 @@ The first time, `zsh` will ask you to choose a option. Select either `1` or `2`.
 This will be the output of the command `code-server --list-extensions --user-data-dir=/data` as run on the container:
 
 ```text
-adashen.vscode-tomcat
+GabrielBB.vscode-lombok
+Gruntfuggly.todo-tree
+hediet.vscode-drawio
+mhutchie.git-graph
+Pivotal.vscode-boot-dev-pack
+Pivotal.vscode-concourse
+Pivotal.vscode-manifest-yaml
 Pivotal.vscode-spring-boot
+redhat.fabric8-analytics
 redhat.java
-shengchen.vscode-checkstyle
-SonarSource.sonarlint-vscode
-SummerSun.vscode-jetty
+redhat.vscode-commons
+redhat.vscode-xml
+redhat.vscode-yaml
+streetsidesoftware.code-spell-checker
+VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
@@ -106,6 +115,7 @@ vscjava.vscode-java-test
 vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
 vscjava.vscode-spring-initializr
+yzhang.markdown-all-in-one
 ```
 
 ## Installed Packages
