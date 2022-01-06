@@ -4,6 +4,8 @@ Based on the [nicc777/code-container](https://github.com/nicc777/code-container)
 
 **_Note_**: Java is rather "heavy" on resources and this container had to install a number of additional packages to satisfy all dependencies.
 
+**_Note_**: At the moment (2022-01-06) there are a couple of extensions that failed to install - this will be addressed soon.
+
 ## Important Security Information
 
 This project essentially packages a release from [another repository](https://github.com/cdr/code-server) for convenience. Please check the latest version in that repository and compare that with the version being built for this image. If you are not comfortable with any discrepancies, please do not use this image.
@@ -26,6 +28,12 @@ If you cloned this repository from GitHub, you can build the image with the foll
 
 ```shell
 docker build -t code-container-java .
+```
+
+To force a completely fresh build, try running:
+
+```shell
+docker build --no-cache -t code-container-java .
 ```
 
 ## Running the Container
