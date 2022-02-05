@@ -1,6 +1,6 @@
 FROM nicc777/code-container
 
-LABEL CodeServerVersion 4.0.1
+LABEL CodeServerVersion 4.0.2
 
 # Startup script
 WORKDIR /opt/bin
